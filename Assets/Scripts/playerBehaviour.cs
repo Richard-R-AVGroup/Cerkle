@@ -21,8 +21,8 @@ public class playerBehaviour : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         //initializing the player variables
-        health = 10;
-        speed = 2;
+        health = 1;
+        speed = 3;
         score = 0;
         canHit = true;
 	}

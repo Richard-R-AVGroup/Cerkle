@@ -23,7 +23,7 @@ public class enemyBehaviour : MonoBehaviour {
         //setting the movement
         startMove = true;
         //speed of the enemy
-        speed = 1;
+        speed = 2;
         
 	}
 	
