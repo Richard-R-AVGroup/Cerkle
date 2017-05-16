@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class buttonController : MonoBehaviour {
 
@@ -32,5 +33,15 @@ public class buttonController : MonoBehaviour {
     public void unpause()
     {
         Time.timeScale = 1.0f;
+    }
+
+    public void disableButton(Button button)
+    {
+        button.interactable = false;
+    }
+
+    public void enableButton(Button button)
+    {
+        button.interactable = true;
     }
 }
